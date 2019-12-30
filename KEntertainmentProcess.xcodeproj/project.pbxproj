@@ -16,6 +16,12 @@
 		12C798C223B9CC6A009A1388 /* KTvProcessServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */; };
 		12C798C623B9CCE5009A1388 /* KMovieProcessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */; };
 		12C798C823B9CD90009A1388 /* KTvProcessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C723B9CD90009A1388 /* KTvProcessTest.swift */; };
+		12C798FF23B9ED90009A1388 /* KEntertainmentProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798FE23B9ED90009A1388 /* KEntertainmentProcess.swift */; };
+		12C7990223B9F2ED009A1388 /* KEntertainmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7990123B9F2ED009A1388 /* KEntertainmentModel.swift */; };
+		12C7990623B9F521009A1388 /* KEntertainmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7990523B9F521009A1388 /* KEntertainmentType.swift */; };
+		12C7990823B9F545009A1388 /* KMovieModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7990723B9F545009A1388 /* KMovieModelExtension.swift */; };
+		12C7990A23B9F582009A1388 /* KTvModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7990923B9F582009A1388 /* KTvModelExtension.swift */; };
+		12C7990C23B9F7E2009A1388 /* KEntertainmentProcessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C7990B23B9F7E2009A1388 /* KEntertainmentProcessTest.swift */; };
 		4C5C7F8875C3604B53254609 /* Pods_KEntertainmentProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E008D73BD26498BB3F807B9 /* Pods_KEntertainmentProcess.framework */; };
 		CDB87C1C53E50411FA6A3381 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465041470951CC74321D43B /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +50,12 @@
 		12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvProcessServiceExtension.swift; sourceTree = "<group>"; };
 		12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMovieProcessTest.swift; sourceTree = "<group>"; };
 		12C798C723B9CD90009A1388 /* KTvProcessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvProcessTest.swift; sourceTree = "<group>"; };
+		12C798FE23B9ED90009A1388 /* KEntertainmentProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KEntertainmentProcess.swift; sourceTree = "<group>"; };
+		12C7990123B9F2ED009A1388 /* KEntertainmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KEntertainmentModel.swift; sourceTree = "<group>"; };
+		12C7990523B9F521009A1388 /* KEntertainmentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KEntertainmentType.swift; sourceTree = "<group>"; };
+		12C7990723B9F545009A1388 /* KMovieModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMovieModelExtension.swift; sourceTree = "<group>"; };
+		12C7990923B9F582009A1388 /* KTvModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvModelExtension.swift; sourceTree = "<group>"; };
+		12C7990B23B9F7E2009A1388 /* KEntertainmentProcessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KEntertainmentProcessTest.swift; sourceTree = "<group>"; };
 		1CD60003784361653FE1A25F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E008D73BD26498BB3F807B9 /* Pods_KEntertainmentProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KEntertainmentProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		755AD77DB81C2881735D54E0 /* Pods-KEntertainmentProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess.release.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +116,8 @@
 		129D8DFF23B9A0930016664D /* KEntertainmentProcess */ = {
 			isa = PBXGroup;
 			children = (
+				12C7990423B9F505009A1388 /* Enum */,
+				12C7990023B9F2D5009A1388 /* Model */,
 				12C798B623B9C68A009A1388 /* Implement */,
 				129D8E0023B9A0930016664D /* KEntertainmentProcess.h */,
 				129D8E0123B9A0930016664D /* Info.plist */,
@@ -116,6 +130,7 @@
 			children = (
 				12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */,
 				12C798C723B9CD90009A1388 /* KTvProcessTest.swift */,
+				12C7990B23B9F7E2009A1388 /* KEntertainmentProcessTest.swift */,
 				129D8E0D23B9A0930016664D /* Info.plist */,
 			);
 			path = KEntertainmentProcessTests;
@@ -125,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				12C798B723B9C69E009A1388 /* KBaseProcess.swift */,
+				12C798FE23B9ED90009A1388 /* KEntertainmentProcess.swift */,
 				12C798B923B9C710009A1388 /* KMovieProcess */,
 				12C798BA23B9C71D009A1388 /* KTvProcess */,
 			);
@@ -147,6 +163,32 @@
 				12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */,
 			);
 			path = KTvProcess;
+			sourceTree = "<group>";
+		};
+		12C7990023B9F2D5009A1388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12C7990323B9F4FB009A1388 /* Extension */,
+				12C7990123B9F2ED009A1388 /* KEntertainmentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12C7990323B9F4FB009A1388 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				12C7990723B9F545009A1388 /* KMovieModelExtension.swift */,
+				12C7990923B9F582009A1388 /* KTvModelExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		12C7990423B9F505009A1388 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				12C7990523B9F521009A1388 /* KEntertainmentType.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		5AA7758AEE98CD59FB6ECA9B /* Pods */ = {
@@ -338,10 +380,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				12C798C223B9CC6A009A1388 /* KTvProcessServiceExtension.swift in Sources */,
+				12C7990223B9F2ED009A1388 /* KEntertainmentModel.swift in Sources */,
 				12C798BC23B9C745009A1388 /* KMovieProcess.swift in Sources */,
+				12C798FF23B9ED90009A1388 /* KEntertainmentProcess.swift in Sources */,
 				12C798BE23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift in Sources */,
+				12C7990A23B9F582009A1388 /* KTvModelExtension.swift in Sources */,
 				12C798B823B9C69E009A1388 /* KBaseProcess.swift in Sources */,
+				12C7990623B9F521009A1388 /* KEntertainmentType.swift in Sources */,
 				12C798C023B9CB5D009A1388 /* KTvProcess.swift in Sources */,
+				12C7990823B9F545009A1388 /* KMovieModelExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +398,7 @@
 			files = (
 				12C798C623B9CCE5009A1388 /* KMovieProcessTest.swift in Sources */,
 				12C798C823B9CD90009A1388 /* KTvProcessTest.swift in Sources */,
+				12C7990C23B9F7E2009A1388 /* KEntertainmentProcessTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

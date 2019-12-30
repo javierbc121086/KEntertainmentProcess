@@ -1,0 +1,6 @@
+framework module GNSwissRazor {
+  umbrella header "GNSwissRazor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,13 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		129D8E0723B9A0930016664D /* KEntertainmentProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129D8DFD23B9A0930016664D /* KEntertainmentProcess.framework */; };
-		129D8E0C23B9A0930016664D /* KEntertainmentProcessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D8E0B23B9A0930016664D /* KEntertainmentProcessTests.swift */; };
 		129D8E0E23B9A0930016664D /* KEntertainmentProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 129D8E0023B9A0930016664D /* KEntertainmentProcess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C798B823B9C69E009A1388 /* KBaseProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798B723B9C69E009A1388 /* KBaseProcess.swift */; };
+		12C798BC23B9C745009A1388 /* KMovieProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798BB23B9C745009A1388 /* KMovieProcess.swift */; };
+		12C798BE23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798BD23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift */; };
+		12C798C023B9CB5D009A1388 /* KTvProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798BF23B9CB5D009A1388 /* KTvProcess.swift */; };
+		12C798C223B9CC6A009A1388 /* KTvProcessServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */; };
+		12C798C623B9CCE5009A1388 /* KMovieProcessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */; };
+		12C798C823B9CD90009A1388 /* KTvProcessTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C798C723B9CD90009A1388 /* KTvProcessTest.swift */; };
+		4C5C7F8875C3604B53254609 /* Pods_KEntertainmentProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E008D73BD26498BB3F807B9 /* Pods_KEntertainmentProcess.framework */; };
+		CDB87C1C53E50411FA6A3381 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0465041470951CC74321D43B /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +31,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0465041470951CC74321D43B /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		129D8DFD23B9A0930016664D /* KEntertainmentProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KEntertainmentProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		129D8E0023B9A0930016664D /* KEntertainmentProcess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEntertainmentProcess.h; sourceTree = "<group>"; };
 		129D8E0123B9A0930016664D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		129D8E0623B9A0930016664D /* KEntertainmentProcessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KEntertainmentProcessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		129D8E0B23B9A0930016664D /* KEntertainmentProcessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KEntertainmentProcessTests.swift; sourceTree = "<group>"; };
 		129D8E0D23B9A0930016664D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12C798B723B9C69E009A1388 /* KBaseProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBaseProcess.swift; sourceTree = "<group>"; };
+		12C798BB23B9C745009A1388 /* KMovieProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMovieProcess.swift; sourceTree = "<group>"; };
+		12C798BD23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMovieProcessServiceExtension.swift; sourceTree = "<group>"; };
+		12C798BF23B9CB5D009A1388 /* KTvProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvProcess.swift; sourceTree = "<group>"; };
+		12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvProcessServiceExtension.swift; sourceTree = "<group>"; };
+		12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMovieProcessTest.swift; sourceTree = "<group>"; };
+		12C798C723B9CD90009A1388 /* KTvProcessTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTvProcessTest.swift; sourceTree = "<group>"; };
+		1CD60003784361653FE1A25F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E008D73BD26498BB3F807B9 /* Pods_KEntertainmentProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KEntertainmentProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755AD77DB81C2881735D54E0 /* Pods-KEntertainmentProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess.release.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess.release.xcconfig"; sourceTree = "<group>"; };
+		B7964F494F504849A9E29078 /* Pods-KEntertainmentProcess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess.debug.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess.debug.xcconfig"; sourceTree = "<group>"; };
+		D4AEB68A2F79BD8B7121277C /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig"; path = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5C7F8875C3604B53254609 /* Pods_KEntertainmentProcess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +65,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				129D8E0723B9A0930016664D /* KEntertainmentProcess.framework in Frameworks */,
+				CDB87C1C53E50411FA6A3381 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CBAADD00C15C929806B833F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E008D73BD26498BB3F807B9 /* Pods_KEntertainmentProcess.framework */,
+				0465041470951CC74321D43B /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		129D8DF323B9A0930016664D = {
 			isa = PBXGroup;
 			children = (
 				129D8DFF23B9A0930016664D /* KEntertainmentProcess */,
 				129D8E0A23B9A0930016664D /* KEntertainmentProcessTests */,
 				129D8DFE23B9A0930016664D /* Products */,
+				5AA7758AEE98CD59FB6ECA9B /* Pods */,
+				0CBAADD00C15C929806B833F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +104,7 @@
 		129D8DFF23B9A0930016664D /* KEntertainmentProcess */ = {
 			isa = PBXGroup;
 			children = (
+				12C798B623B9C68A009A1388 /* Implement */,
 				129D8E0023B9A0930016664D /* KEntertainmentProcess.h */,
 				129D8E0123B9A0930016664D /* Info.plist */,
 			);
@@ -80,10 +114,50 @@
 		129D8E0A23B9A0930016664D /* KEntertainmentProcessTests */ = {
 			isa = PBXGroup;
 			children = (
-				129D8E0B23B9A0930016664D /* KEntertainmentProcessTests.swift */,
+				12C798C523B9CCE5009A1388 /* KMovieProcessTest.swift */,
+				12C798C723B9CD90009A1388 /* KTvProcessTest.swift */,
 				129D8E0D23B9A0930016664D /* Info.plist */,
 			);
 			path = KEntertainmentProcessTests;
+			sourceTree = "<group>";
+		};
+		12C798B623B9C68A009A1388 /* Implement */ = {
+			isa = PBXGroup;
+			children = (
+				12C798B723B9C69E009A1388 /* KBaseProcess.swift */,
+				12C798B923B9C710009A1388 /* KMovieProcess */,
+				12C798BA23B9C71D009A1388 /* KTvProcess */,
+			);
+			path = Implement;
+			sourceTree = "<group>";
+		};
+		12C798B923B9C710009A1388 /* KMovieProcess */ = {
+			isa = PBXGroup;
+			children = (
+				12C798BB23B9C745009A1388 /* KMovieProcess.swift */,
+				12C798BD23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift */,
+			);
+			path = KMovieProcess;
+			sourceTree = "<group>";
+		};
+		12C798BA23B9C71D009A1388 /* KTvProcess */ = {
+			isa = PBXGroup;
+			children = (
+				12C798BF23B9CB5D009A1388 /* KTvProcess.swift */,
+				12C798C123B9CC6A009A1388 /* KTvProcessServiceExtension.swift */,
+			);
+			path = KTvProcess;
+			sourceTree = "<group>";
+		};
+		5AA7758AEE98CD59FB6ECA9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7964F494F504849A9E29078 /* Pods-KEntertainmentProcess.debug.xcconfig */,
+				755AD77DB81C2881735D54E0 /* Pods-KEntertainmentProcess.release.xcconfig */,
+				D4AEB68A2F79BD8B7121277C /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */,
+				1CD60003784361653FE1A25F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129D8E1123B9A0930016664D /* Build configuration list for PBXNativeTarget "KEntertainmentProcess" */;
 			buildPhases = (
+				57B92A0F4F6C289E626AF2B4 /* [CP] Check Pods Manifest.lock */,
 				129D8DF823B9A0930016664D /* Headers */,
 				129D8DF923B9A0930016664D /* Sources */,
 				129D8DFA23B9A0930016664D /* Frameworks */,
@@ -122,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129D8E1423B9A0930016664D /* Build configuration list for PBXNativeTarget "KEntertainmentProcessTests" */;
 			buildPhases = (
+				9EBB3910D327E4DE9B10D63B /* [CP] Check Pods Manifest.lock */,
 				129D8E0223B9A0930016664D /* Sources */,
 				129D8E0323B9A0930016664D /* Frameworks */,
 				129D8E0423B9A0930016664D /* Resources */,
+				AFC23575AD0432EB3956D39F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +225,7 @@
 				TargetAttributes = {
 					129D8DFC23B9A0930016664D = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					129D8E0523B9A0930016664D = {
 						CreatedOnToolsVersion = 11.3;
@@ -190,11 +268,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57B92A0F4F6C289E626AF2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KEntertainmentProcess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBB3910D327E4DE9B10D63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KEntertainmentProcess-KEntertainmentProcessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC23575AD0432EB3956D39F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		129D8DF923B9A0930016664D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C798C223B9CC6A009A1388 /* KTvProcessServiceExtension.swift in Sources */,
+				12C798BC23B9C745009A1388 /* KMovieProcess.swift in Sources */,
+				12C798BE23B9C7E3009A1388 /* KMovieProcessServiceExtension.swift in Sources */,
+				12C798B823B9C69E009A1388 /* KBaseProcess.swift in Sources */,
+				12C798C023B9CB5D009A1388 /* KTvProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				129D8E0C23B9A0930016664D /* KEntertainmentProcessTests.swift in Sources */,
+				12C798C623B9CCE5009A1388 /* KMovieProcessTest.swift in Sources */,
+				12C798C823B9CD90009A1388 /* KTvProcessTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +487,9 @@
 		};
 		129D8E1223B9A0930016664D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7964F494F504849A9E29078 /* Pods-KEntertainmentProcess.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
@@ -348,6 +498,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KEntertainmentProcess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,14 +507,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gipsyhub.KEntertainmentProcess;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		129D8E1323B9A0930016664D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755AD77DB81C2881735D54E0 /* Pods-KEntertainmentProcess.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
@@ -372,6 +527,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KEntertainmentProcess/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,14 +536,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.gipsyhub.KEntertainmentProcess;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		129D8E1523B9A0930016664D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AEB68A2F79BD8B7121277C /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				INFOPLIST_FILE = KEntertainmentProcessTests/Info.plist;
@@ -405,7 +564,9 @@
 		};
 		129D8E1623B9A0930016664D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD60003784361653FE1A25F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A5X7JBF46;
 				INFOPLIST_FILE = KEntertainmentProcessTests/Info.plist;

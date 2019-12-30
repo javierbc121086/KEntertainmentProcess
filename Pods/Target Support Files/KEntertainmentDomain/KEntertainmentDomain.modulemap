@@ -1,0 +1,6 @@
+framework module KEntertainmentDomain {
+  umbrella header "KEntertainmentDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}

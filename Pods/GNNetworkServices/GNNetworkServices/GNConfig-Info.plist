@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IdentifierRestServer</key>
+	<dict>
+		<key>other</key>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>enabled</key>
+			<false/>
+		</dict>
+		<key>simulation</key>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>enabled</key>
+			<false/>
+		</dict>
+		<key>develop</key>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>enabled</key>
+			<false/>
+		</dict>
+		<key>production</key>
+		<dict>
+			<key>url</key>
+			<string>https://api.themoviedb.org</string>
+			<key>enabled</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>BundleIdentifierJsonMock</key>
+	<string>ADD_SERVICE_BUNDLE</string>
+</dict>
+</plist>

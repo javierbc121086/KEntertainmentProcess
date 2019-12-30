@@ -1,0 +1,1783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0051CBB29DC326F56A438489E49B8146 /* GNSwissRazor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E23FE413A939DDBD67667C2058BF4DE /* GNSwissRazor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		021A2CE2020C9A819E15E9D6BE607815 /* KMovieEntityModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D5825E48767D7ADD2F993AF74F2F5 /* KMovieEntityModelConverter.swift */; };
+		063BF19D759B2EF540F30B8CF941C5BB /* GNConnectionServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4994D4614E9A2F6FC0F6F921611E2 /* GNConnectionServiceDelegate.swift */; };
+		0C6B219F59EF0ABF9EFD4F4444A8C459 /* KTvResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04600FC726BE54B276EDFF67FB8C6DF /* KTvResponseEntity.swift */; };
+		15EC4F44EDA572703996019705428ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		178F0879E67AB48F91F2E1300D50BF74 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0336575DD678F8728C2938DDB964F9 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E13580DF2B9F83FAC229B194B920CB /* GNNetworkServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E54B57C4BC82C462560D60D6EF1A3B /* GNNetworkServices-dummy.m */; };
+		2475873BC11D6F66D0DF2A51F2CBE91A /* GNConnectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066944999E7D2956678518A0115B027E /* GNConnectionType.swift */; };
+		25E1D112C820DF31681FFDD6B6DCCF64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2D001AFBA533BE8F47DF43790CB9C5 /* SystemConfiguration.framework */; };
+		282DB32F0A7A0EBFF37F83D552703551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		2A5788467DFD101F2B14BDC3614A5424 /* GNSwissRazor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515C782F3495B2B4CEA6A3AA9842938D /* GNSwissRazor-dummy.m */; };
+		2EACADAE209E04764DB8FF05CEBFE25F /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704808736A2E28DB993D83758FE45558 /* Reachability.framework */; };
+		3092F0956D39C207E02081BDD0B2FF3E /* GNSwissRazor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD1108829B3A3FCE5AC3DB70B30ECAC /* GNSwissRazor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCE255757E54212C0F6CFAEB9A442DC /* GNBaseServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423A055D6458FD825EE3D2382E36FFB9 /* GNBaseServiceExtension.swift */; };
+		3D4D359A749E845685BCB237A41A8290 /* GNBaseServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66122894DE50D881ED990B244C000736 /* GNBaseServiceDelegate.swift */; };
+		48463ED6412BA24B9AEB46C6C976BA41 /* GNConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA2AC242A561BF4FE80FAD8C138CC3B /* GNConfigService.swift */; };
+		4ECE19D7BF7F844A9F68F253B8098CEC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2061A4353FEC2032D490507FB2113593 /* Reachability.swift */; };
+		54DD714AE2E4396B202A8C96ABBB4997 /* GNSwissRazor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5747181CF5DDC3AE707E7064290581B4 /* GNSwissRazor.framework */; };
+		56884D2D7F98D3D41215BF908C7D7EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		5757509D13330BD04C5726A0762987C3 /* GNDependencySeriveConfigDependencySeriveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78581A82ED096021CDFA8C0EF7D287BF /* GNDependencySeriveConfigDependencySeriveConfig.swift */; };
+		5A656AB1CB2A6A4A4556CF56755A0688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		63CE8AA0950E48E9152E1C8A10229F58 /* GNRequestServerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CF3B44A846A1E3FD73569CC085DF8 /* GNRequestServerType.swift */; };
+		64A008363F6A8FFF3BAD1C3E939AF57A /* KEntertainmentService.h in Headers */ = {isa = PBXBuildFile; fileRef = D877858DDEA212908208770AD28549BE /* KEntertainmentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF05682A2E7FD72DD6A2C805F924C89 /* GNMagicCoreServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CA2F98744942E3B4AF8150ACD1AB9 /* GNMagicCoreServiceDelegate.swift */; };
+		6D89D94F741BA65A2D51B4F49B903B7D /* GNTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E7BBD8713C7F5C4AA131675CF3A94 /* GNTools.swift */; };
+		72F8A1832C0BE3FD701AE7DDD03597EB /* GNURLSessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A422DB993E8E83ABFFB75809EB6BF97 /* GNURLSessionService.swift */; };
+		743B52FE95EFF725BA354556924B9EB6 /* GNNetworkServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A729092972EFE1FAE6DCE6D1F453F8 /* GNNetworkServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		771BE0295FB2981F49E84602CA9B1667 /* KEntertainmentService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE919B69B4D578C1BCF0685120E1CE0B /* KEntertainmentService-dummy.m */; };
+		774C34CF3506497A9E5447697F384F21 /* GNRequestServerTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65998ADEC072DD964D24AAA6029EB4F3 /* GNRequestServerTypeExtension.swift */; };
+		775AA0E3D910C588E02C098E97369C8C /* KEntertainmentDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CD8BA3B17DE525F086F21514893B04 /* KEntertainmentDomain.framework */; };
+		780FC9D5AA4E1556DD185E32044E7E20 /* BMPCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45275438136B8E056286CF4AD4A986B /* BMPCookie.swift */; };
+		817113E088DCDB300339D5720E7EBDC1 /* KEntertainmentDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 185B7E00E738E90E37C0BFD4EFD2D2A3 /* KEntertainmentDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8558F73D5999184E87C1E38FCC8B31D7 /* KEntertainmentDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = F84653E8F2D1F564016F6F9049DE4BAC /* KEntertainmentDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		857F804F52F6BC71308BB893184D3B96 /* KMovieResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1F3C34608537DD887F006107760472 /* KMovieResponseEntity.swift */; };
+		85D9B59B7E3838B99407716B98BAAFAF /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2746D23AC8DE2B20CF3313C497CE3B /* ReachabilitySwift-dummy.m */; };
+		85DD2D9B21AEDD261E8E3963EEEB6186 /* KServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B214E109F0D7E04C1B371552FFBD0013 /* KServiceConfig.swift */; };
+		8EB1DAA485859A41C0B42952881BF52D /* KEntertainmentService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 844CDEB534B9CFE44F93272379973313 /* KEntertainmentService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929B28B3CDFB8144FC4348B68A6042E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		93C674B9DDBDABBB2883E7ED2EFD1CF0 /* Pods-KEntertainmentProcess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CE719ED9B25E034B7DE3E7AC6AE30F /* Pods-KEntertainmentProcess-dummy.m */; };
+		955AED97FF0920003A35883C918F3097 /* GNBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F54BEF5B53E88AC94EB0E85D7A92E9 /* GNBaseService.swift */; };
+		9C33CAD55D7A124CA04C3471FC14D9DC /* KTvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B418B3C4145DE4D3F9508C703028FD /* KTvModel.swift */; };
+		A0FF6509166F5D9771A8226FF2829CB3 /* KTvEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFA3B812B995BAA3A3970E11F9BC08A /* KTvEntity.swift */; };
+		A7EFA584E0FC08E7005790DFF58397E4 /* KMovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D377D16C9E7945217E8711A48770B6 /* KMovieEntity.swift */; };
+		AE0B85BDEB2814F7C8AAC843C9776139 /* GNNetworkServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D531AEF7F5A626D4F79EDFBC4282460C /* GNNetworkServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5CD8E374CF4FCCE4C0E8206F5D947CA /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170EDCA90B4AC00B79741B6C3A4B0241 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE646D9DD6DFD3DAAD0831D8527AE60 /* GNConfig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3B74E77FF972C1DA4D0EEEC6AB84E5B /* GNConfig-Info.plist */; };
+		BE80779B3B8A3CA5B4E37E2075698223 /* KTvEntityModelConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C642F007D9C37C34B901F9DDD3210 /* KTvEntityModelConverter.swift */; };
+		C06BB0FCF9A65EEDA925A6C42ED717C3 /* KEntertainmentDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2A5871AADF0FF489978D1289A828B /* KEntertainmentDomain-dummy.m */; };
+		CBE79C4F7985CDB11EC07D1A6902F15D /* KHttpRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956949D49D4B4E3B09C08A11196D17D3 /* KHttpRequestType.swift */; };
+		CFEE95B39FFE6BFDBBFE3B1CED63578D /* KTvService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA72E6FE70990C591378BD1E4DE5A93 /* KTvService.swift */; };
+		D63C6CEA52D36E43A6364F1BD0E607F1 /* KBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661079C6EC03C10E8055E855D61575F /* KBaseService.swift */; };
+		D817A5BBFF7A602EDA3BE27F18A1B791 /* GNExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600195494F7D2447B249AA17C8C8283 /* GNExtension.swift */; };
+		DDCE6F3FE609A2C17F0B4895F3CFACEA /* Pods-KEntertainmentProcess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4D76C4B926979481BE27598BE6A02A /* Pods-KEntertainmentProcess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC065035EA38BC6BCB6AF85C5501A769 /* GNSwissRazor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5747181CF5DDC3AE707E7064290581B4 /* GNSwissRazor.framework */; };
+		ECD96ABDA3AFBE5132CF72894AD246FA /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8677E5248198A5F8A2CDA1BAD417B5 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m */; };
+		ED9E2ED8AA8CDAF9B989119A21FF8D8B /* GNNetworkServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D6FA808551CF1DC33D29080A165299 /* GNNetworkServices.framework */; };
+		F48F16803A4A83CC30DD5E503B4964E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		F8DA48F98DECD4A673D83874CCC4D614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */; };
+		FB1C10CB8FA66EFB5A37A04EAF1A14D8 /* KMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3968166A96634B387CC4A871520C3 /* KMovieModel.swift */; };
+		FB914F0527D2879861470D7792C76CAD /* KMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248D8C08F5E1872AB5795BB99351CB80 /* KMovieService.swift */; };
+		FEDF1546C7851E93AB0582C2AFCF3D46 /* GNConnectionTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E04F07CEF127AC61E1489C8413891E2 /* GNConnectionTypeExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049223ED3498FFBE0A351F3C19D36629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7777341FD471F329B5680D3647D9DA;
+			remoteInfo = KEntertainmentDomain;
+		};
+		0DB79DFA29D44A3C152AFE69198D8803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		11BD8856520EC6FEFCD5199B77744E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		124AA6D88968A3F415E40828183507C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		312C5BA81E7F745E6D035B934BFB27CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81343638133EBDFFE1274EC252D09C41;
+			remoteInfo = GNSwissRazor;
+		};
+		32A9398A00B332AF6734325BD8418761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81343638133EBDFFE1274EC252D09C41;
+			remoteInfo = GNSwissRazor;
+		};
+		9E47D2322FA4DBA3FCE39CA0917B055A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613A54FC466E327B688BBB896334F4E9;
+			remoteInfo = GNNetworkServices;
+		};
+		A5BCEE6993AB16BCE08AE769DE2E6252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613A54FC466E327B688BBB896334F4E9;
+			remoteInfo = GNNetworkServices;
+		};
+		AAAF3CF8741019E1CF7398A2F2FDDA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613A54FC466E327B688BBB896334F4E9;
+			remoteInfo = GNNetworkServices;
+		};
+		C125B17433DC254912C5BEE2962C57C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F58070DDAFA62D7F6E3A7FE7B5714D;
+			remoteInfo = KEntertainmentService;
+		};
+		CCB284A28ED83E7C3E4AB4DE96EED55E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7777341FD471F329B5680D3647D9DA;
+			remoteInfo = KEntertainmentDomain;
+		};
+		D8098A64DB6C7DEA79729628C1B6F444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F58070DDAFA62D7F6E3A7FE7B5714D;
+			remoteInfo = KEntertainmentService;
+		};
+		DC59A4A199E77637360C3F347FC34758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81343638133EBDFFE1274EC252D09C41;
+			remoteInfo = GNSwissRazor;
+		};
+		E74FF4CEC6B35BA0CB03EAC291AB8B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81343638133EBDFFE1274EC252D09C41;
+			remoteInfo = GNSwissRazor;
+		};
+		F76A09B588A829315AFB83FF849CE7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7777341FD471F329B5680D3647D9DA;
+			remoteInfo = KEntertainmentDomain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04141BFA3A03A78DBB3D7F6DB86BB62F /* GNNetworkServices.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNNetworkServices.xcconfig; sourceTree = "<group>"; };
+		066944999E7D2956678518A0115B027E /* GNConnectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionType.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionType.swift; sourceTree = "<group>"; };
+		07F2A5871AADF0FF489978D1289A828B /* KEntertainmentDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KEntertainmentDomain-dummy.m"; sourceTree = "<group>"; };
+		07F3968166A96634B387CC4A871520C3 /* KMovieModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMovieModel.swift; path = KEntertainmentDomain/Model/KMovieModel.swift; sourceTree = "<group>"; };
+		08A29376B05F3413D92AE7847A837829 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks.sh"; sourceTree = "<group>"; };
+		0CCA275B392D5A4D5352F5C23C64BF53 /* KEntertainmentDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KEntertainmentDomain.modulemap; sourceTree = "<group>"; };
+		116E7BBD8713C7F5C4AA131675CF3A94 /* GNTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNTools.swift; path = GNSwissRazor/GNTools.swift; sourceTree = "<group>"; };
+		1238C4FEA3F354BF8CA601FAE964B978 /* GNSwissRazor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNSwissRazor.framework; path = GNSwissRazor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		157B561ABBBC63182290F332DCEBBC25 /* Pods-KEntertainmentProcess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KEntertainmentProcess.debug.xcconfig"; sourceTree = "<group>"; };
+		170EDCA90B4AC00B79741B6C3A4B0241 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		185B7E00E738E90E37C0BFD4EFD2D2A3 /* KEntertainmentDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KEntertainmentDomain-umbrella.h"; sourceTree = "<group>"; };
+		1B3ABE8EC8445D5E53D2B6ABF8312DAB /* KEntertainmentDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KEntertainmentDomain-Info.plist"; sourceTree = "<group>"; };
+		1D62212EBC1CD727244AA8EB14D12C6B /* GNSwissRazor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNSwissRazor-Info.plist"; sourceTree = "<group>"; };
+		1FD1108829B3A3FCE5AC3DB70B30ECAC /* GNSwissRazor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNSwissRazor.h; path = GNSwissRazor/GNSwissRazor.h; sourceTree = "<group>"; };
+		2061A4353FEC2032D490507FB2113593 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2271E64DEF1CFCBE55C7B069F7A3DC54 /* GNNetworkServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GNNetworkServices-Info.plist"; sourceTree = "<group>"; };
+		23A729092972EFE1FAE6DCE6D1F453F8 /* GNNetworkServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNNetworkServices.h; path = GNNetworkServices/GNNetworkServices.h; sourceTree = "<group>"; };
+		248D8C08F5E1872AB5795BB99351CB80 /* KMovieService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMovieService.swift; path = KEntertainmentService/Implement/KMovieService.swift; sourceTree = "<group>"; };
+		2D4D76C4B926979481BE27598BE6A02A /* Pods-KEntertainmentProcess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KEntertainmentProcess-umbrella.h"; sourceTree = "<group>"; };
+		31C020A0E2F7291BFEEE471141D40E05 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B69193731B9747A9F3324240513D32C /* KEntertainmentDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KEntertainmentDomain.framework; path = KEntertainmentDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1AE7FA9897AD59F6F2E912C8614D65 /* Pods_KEntertainmentProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KEntertainmentProcess.framework; path = "Pods-KEntertainmentProcess.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3CF3B44A846A1E3FD73569CC085DF8 /* GNRequestServerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerType.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerType.swift; sourceTree = "<group>"; };
+		423A055D6458FD825EE3D2382E36FFB9 /* GNBaseServiceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceExtension.swift; path = GNNetworkServices/Implements/GNBaseServiceExtension.swift; sourceTree = "<group>"; };
+		45570A79A42BCC57E914F1BFC991C838 /* GNNetworkServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-prefix.pch"; sourceTree = "<group>"; };
+		498C642F007D9C37C34B901F9DDD3210 /* KTvEntityModelConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTvEntityModelConverter.swift; path = KEntertainmentService/Converter/KTvEntityModelConverter.swift; sourceTree = "<group>"; };
+		4A422DB993E8E83ABFFB75809EB6BF97 /* GNURLSessionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNURLSessionService.swift; path = GNNetworkServices/ConnectionCore/Urlsession/GNURLSessionService.swift; sourceTree = "<group>"; };
+		4B01B63E5188635647B3EF4128E68B97 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		4E23FE413A939DDBD67667C2058BF4DE /* GNSwissRazor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-umbrella.h"; sourceTree = "<group>"; };
+		515C782F3495B2B4CEA6A3AA9842938D /* GNSwissRazor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNSwissRazor-dummy.m"; sourceTree = "<group>"; };
+		53F54BEF5B53E88AC94EB0E85D7A92E9 /* GNBaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseService.swift; path = GNNetworkServices/Implements/GNBaseService.swift; sourceTree = "<group>"; };
+		54C30514E0B85B57F7509720787DE4EF /* GNSwissRazor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNSwissRazor.xcconfig; sourceTree = "<group>"; };
+		550C996CA0788EAA8A646C4385E0DF61 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		5747181CF5DDC3AE707E7064290581B4 /* GNSwissRazor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNSwissRazor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2D001AFBA533BE8F47DF43790CB9C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		62D4994D4614E9A2F6FC0F6F921611E2 /* GNConnectionServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNConnectionServiceDelegate.swift; sourceTree = "<group>"; };
+		65998ADEC072DD964D24AAA6029EB4F3 /* GNRequestServerTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNRequestServerTypeExtension.swift; path = GNNetworkServices/Enum/GNRequestServerType/GNRequestServerTypeExtension.swift; sourceTree = "<group>"; };
+		66122894DE50D881ED990B244C000736 /* GNBaseServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNBaseServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNBaseServiceDelegate.swift; sourceTree = "<group>"; };
+		6817A245D4025E3E8D7113704C8E3723 /* Pods-KEntertainmentProcess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KEntertainmentProcess.modulemap"; sourceTree = "<group>"; };
+		68EFD5D5CE876D145626DA5CD483C340 /* GNSwissRazor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNSwissRazor.modulemap; sourceTree = "<group>"; };
+		6CA2AC242A561BF4FE80FAD8C138CC3B /* GNConfigService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConfigService.swift; path = GNNetworkServices/ConnectionCore/Config/GNConfigService.swift; sourceTree = "<group>"; };
+		6E6CA2F98744942E3B4AF8150ACD1AB9 /* GNMagicCoreServiceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNMagicCoreServiceDelegate.swift; path = GNNetworkServices/Implements/Protocols/GNMagicCoreServiceDelegate.swift; sourceTree = "<group>"; };
+		704808736A2E28DB993D83758FE45558 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D377D16C9E7945217E8711A48770B6 /* KMovieEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMovieEntity.swift; path = KEntertainmentService/Entity/KMovieEntity.swift; sourceTree = "<group>"; };
+		7758E95018860F2AFF0F96BAD3499D85 /* GNSwissRazor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNSwissRazor-prefix.pch"; sourceTree = "<group>"; };
+		78581A82ED096021CDFA8C0EF7D287BF /* GNDependencySeriveConfigDependencySeriveConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNDependencySeriveConfigDependencySeriveConfig.swift; path = GNNetworkServices/ConnectionCore/Config/GNDependencySeriveConfigDependencySeriveConfig.swift; sourceTree = "<group>"; };
+		7BCC0A398669470A50D82D21CBED2982 /* Pods-KEntertainmentProcess-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KEntertainmentProcess-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C2746D23AC8DE2B20CF3313C497CE3B /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		7CC0DE84AE765FEC0753AC6F8416D580 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E04F07CEF127AC61E1489C8413891E2 /* GNConnectionTypeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNConnectionTypeExtension.swift; path = GNNetworkServices/Enum/GNConnectionType/GNConnectionTypeExtension.swift; sourceTree = "<group>"; };
+		7EB7100EFC59EC4690D42853A58EEAE3 /* Pods-KEntertainmentProcess-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KEntertainmentProcess-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83CD8BA3B17DE525F086F21514893B04 /* KEntertainmentDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KEntertainmentDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844CDEB534B9CFE44F93272379973313 /* KEntertainmentService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KEntertainmentService-umbrella.h"; sourceTree = "<group>"; };
+		85DA919CFEF53B02E4E8DC1683324743 /* Pods-KEntertainmentProcess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KEntertainmentProcess-Info.plist"; sourceTree = "<group>"; };
+		882F179111D3787152CFB956DE21ACD3 /* KEntertainmentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KEntertainmentService.framework; path = KEntertainmentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B351ED21C03BFDD412F728C6E005193 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		8DA72E6FE70990C591378BD1E4DE5A93 /* KTvService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTvService.swift; path = KEntertainmentService/Implement/KTvService.swift; sourceTree = "<group>"; };
+		9253BFFECC4C5F6938D4460190212A07 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.modulemap"; sourceTree = "<group>"; };
+		956949D49D4B4E3B09C08A11196D17D3 /* KHttpRequestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KHttpRequestType.swift; path = KEntertainmentDomain/Type/KHttpRequestType.swift; sourceTree = "<group>"; };
+		95B0CFF3549CD9A7A96E738B623F85CB /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFA3B812B995BAA3A3970E11F9BC08A /* KTvEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTvEntity.swift; path = KEntertainmentService/Entity/KTvEntity.swift; sourceTree = "<group>"; };
+		A27D5825E48767D7ADD2F993AF74F2F5 /* KMovieEntityModelConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMovieEntityModelConverter.swift; path = KEntertainmentService/Converter/KMovieEntityModelConverter.swift; sourceTree = "<group>"; };
+		A3B418B3C4145DE4D3F9508C703028FD /* KTvModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTvModel.swift; path = KEntertainmentDomain/Model/KTvModel.swift; sourceTree = "<group>"; };
+		A3B74E77FF972C1DA4D0EEEC6AB84E5B /* GNConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GNConfig-Info.plist"; path = "GNNetworkServices/GNConfig-Info.plist"; sourceTree = "<group>"; };
+		A8CE719ED9B25E034B7DE3E7AC6AE30F /* Pods-KEntertainmentProcess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KEntertainmentProcess-dummy.m"; sourceTree = "<group>"; };
+		AC1F3C34608537DD887F006107760472 /* KMovieResponseEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMovieResponseEntity.swift; path = KEntertainmentService/Entity/Response/KMovieResponseEntity.swift; sourceTree = "<group>"; };
+		B214E109F0D7E04C1B371552FFBD0013 /* KServiceConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KServiceConfig.swift; path = KEntertainmentService/Config/KServiceConfig.swift; sourceTree = "<group>"; };
+		B2211C77ED24787537E1019DBD76480E /* KEntertainmentService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KEntertainmentService.xcconfig; sourceTree = "<group>"; };
+		B5E54B57C4BC82C462560D60D6EF1A3B /* GNNetworkServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNNetworkServices-dummy.m"; sourceTree = "<group>"; };
+		B5EFC20C023808319DE09A9AC77A79E8 /* KEntertainmentDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KEntertainmentDomain-prefix.pch"; sourceTree = "<group>"; };
+		B78899646523FDEA236D66CE4BC2C955 /* GNNetworkServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GNNetworkServices.modulemap; sourceTree = "<group>"; };
+		B7FB30C67C653CCBEEFB08F36FA8FD84 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86EE597AF76D67173046A0D4DCEFB3F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA7B0A7E4E48209CFAE684EC0860E6AD /* GNNetworkServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNNetworkServices.framework; path = GNNetworkServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0336575DD678F8728C2938DDB964F9 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h"; sourceTree = "<group>"; };
+		BF8677E5248198A5F8A2CDA1BAD417B5 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m"; sourceTree = "<group>"; };
+		C105E27E0B76C48B23EAA09A2E09DD00 /* KEntertainmentService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KEntertainmentService.modulemap; sourceTree = "<group>"; };
+		C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C600195494F7D2447B249AA17C8C8283 /* GNExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNExtension.swift; path = GNSwissRazor/GNExtension.swift; sourceTree = "<group>"; };
+		CC9A7569D3942C8551D0434B08D1A7F5 /* KEntertainmentService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KEntertainmentService-prefix.pch"; sourceTree = "<group>"; };
+		D45275438136B8E056286CF4AD4A986B /* BMPCookie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMPCookie.swift; path = GNNetworkServices/Model/BMPCookie.swift; sourceTree = "<group>"; };
+		D531AEF7F5A626D4F79EDFBC4282460C /* GNNetworkServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNNetworkServices-umbrella.h"; sourceTree = "<group>"; };
+		D877858DDEA212908208770AD28549BE /* KEntertainmentService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KEntertainmentService.h; path = KEntertainmentService/KEntertainmentService.h; sourceTree = "<group>"; };
+		DC034CE6B98B5783F76B7AF8AC7BD8CE /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D6FA808551CF1DC33D29080A165299 /* GNNetworkServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNNetworkServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B52BBCBF5ACD9CC0B435FBF8C592F4 /* Pods-KEntertainmentProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KEntertainmentProcess.release.xcconfig"; sourceTree = "<group>"; };
+		EB9F637E9481433F793A4A54107A1227 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KEntertainmentProcess-KEntertainmentProcessTests-Info.plist"; sourceTree = "<group>"; };
+		EE919B69B4D578C1BCF0685120E1CE0B /* KEntertainmentService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KEntertainmentService-dummy.m"; sourceTree = "<group>"; };
+		F04600FC726BE54B276EDFF67FB8C6DF /* KTvResponseEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTvResponseEntity.swift; path = KEntertainmentService/Entity/Response/KTvResponseEntity.swift; sourceTree = "<group>"; };
+		F661079C6EC03C10E8055E855D61575F /* KBaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KBaseService.swift; path = KEntertainmentService/Implement/KBaseService.swift; sourceTree = "<group>"; };
+		F84653E8F2D1F564016F6F9049DE4BAC /* KEntertainmentDomain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KEntertainmentDomain.h; path = KEntertainmentDomain/KEntertainmentDomain.h; sourceTree = "<group>"; };
+		FDDFA9DEC4AD549B9D9F9B10AF845670 /* KEntertainmentService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KEntertainmentService-Info.plist"; sourceTree = "<group>"; };
+		FE7972A64771DA5E69A14D1DCCA79485 /* KEntertainmentDomain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KEntertainmentDomain.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003E810840D0505D3C9E880821ACCA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EC4F44EDA572703996019705428ADB /* Foundation.framework in Frameworks */,
+				25E1D112C820DF31681FFDD6B6DCCF64 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08423CD5C4A181CC9040FA1A68193DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282DB32F0A7A0EBFF37F83D552703551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF9A74CDD94F86E2C66179A034A611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56884D2D7F98D3D41215BF908C7D7EAD /* Foundation.framework in Frameworks */,
+				ED9E2ED8AA8CDAF9B989119A21FF8D8B /* GNNetworkServices.framework in Frameworks */,
+				EC065035EA38BC6BCB6AF85C5501A769 /* GNSwissRazor.framework in Frameworks */,
+				775AA0E3D910C588E02C098E97369C8C /* KEntertainmentDomain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC834394000B9F047FA3EF2DF3EF119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48F16803A4A83CC30DD5E503B4964E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFA10BC7CF32C12119DFD15E02E6923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B28B3CDFB8144FC4348B68A6042E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41FAE0749BA24FC9CA8C2474C64D757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A656AB1CB2A6A4A4556CF56755A0688 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BA4E617E5D24BE5E1569CD9D07B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DA48F98DECD4A673D83874CCC4D614 /* Foundation.framework in Frameworks */,
+				54DD714AE2E4396B202A8C96ABBB4997 /* GNSwissRazor.framework in Frameworks */,
+				2EACADAE209E04764DB8FF05CEBFE25F /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CF58C7473B4042663949EAE0C85CAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C105E27E0B76C48B23EAA09A2E09DD00 /* KEntertainmentService.modulemap */,
+				B2211C77ED24787537E1019DBD76480E /* KEntertainmentService.xcconfig */,
+				EE919B69B4D578C1BCF0685120E1CE0B /* KEntertainmentService-dummy.m */,
+				FDDFA9DEC4AD549B9D9F9B10AF845670 /* KEntertainmentService-Info.plist */,
+				CC9A7569D3942C8551D0434B08D1A7F5 /* KEntertainmentService-prefix.pch */,
+				844CDEB534B9CFE44F93272379973313 /* KEntertainmentService-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KEntertainmentService";
+			sourceTree = "<group>";
+		};
+		2AC8588DF1FE89BCC98F790487001DA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF63B477C623CCF45A480F64D7F5A98E /* Pods-KEntertainmentProcess */,
+				B9C8F7CB8C246AAA81BF24FD13945BC3 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		312924D27035E9918323371EC15D7D51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78899646523FDEA236D66CE4BC2C955 /* GNNetworkServices.modulemap */,
+				04141BFA3A03A78DBB3D7F6DB86BB62F /* GNNetworkServices.xcconfig */,
+				B5E54B57C4BC82C462560D60D6EF1A3B /* GNNetworkServices-dummy.m */,
+				2271E64DEF1CFCBE55C7B069F7A3DC54 /* GNNetworkServices-Info.plist */,
+				45570A79A42BCC57E914F1BFC991C838 /* GNNetworkServices-prefix.pch */,
+				D531AEF7F5A626D4F79EDFBC4282460C /* GNNetworkServices-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GNNetworkServices";
+			sourceTree = "<group>";
+		};
+		3E84864B5A04CE419922AE530FA059DB /* KEntertainmentDomain */ = {
+			isa = PBXGroup;
+			children = (
+				F84653E8F2D1F564016F6F9049DE4BAC /* KEntertainmentDomain.h */,
+				956949D49D4B4E3B09C08A11196D17D3 /* KHttpRequestType.swift */,
+				07F3968166A96634B387CC4A871520C3 /* KMovieModel.swift */,
+				A3B418B3C4145DE4D3F9508C703028FD /* KTvModel.swift */,
+				AA0E489E64A45828FDD05388C426CF0B /* Support Files */,
+			);
+			name = KEntertainmentDomain;
+			path = KEntertainmentDomain;
+			sourceTree = "<group>";
+		};
+		4B69CF953F0C9FD0F9B0E1B38D9461CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3B74E77FF972C1DA4D0EEEC6AB84E5B /* GNConfig-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4DA4F6D5C747A3B5AD032827C7A21D91 /* GNNetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				D45275438136B8E056286CF4AD4A986B /* BMPCookie.swift */,
+				53F54BEF5B53E88AC94EB0E85D7A92E9 /* GNBaseService.swift */,
+				66122894DE50D881ED990B244C000736 /* GNBaseServiceDelegate.swift */,
+				423A055D6458FD825EE3D2382E36FFB9 /* GNBaseServiceExtension.swift */,
+				6CA2AC242A561BF4FE80FAD8C138CC3B /* GNConfigService.swift */,
+				62D4994D4614E9A2F6FC0F6F921611E2 /* GNConnectionServiceDelegate.swift */,
+				066944999E7D2956678518A0115B027E /* GNConnectionType.swift */,
+				7E04F07CEF127AC61E1489C8413891E2 /* GNConnectionTypeExtension.swift */,
+				78581A82ED096021CDFA8C0EF7D287BF /* GNDependencySeriveConfigDependencySeriveConfig.swift */,
+				6E6CA2F98744942E3B4AF8150ACD1AB9 /* GNMagicCoreServiceDelegate.swift */,
+				23A729092972EFE1FAE6DCE6D1F453F8 /* GNNetworkServices.h */,
+				3F3CF3B44A846A1E3FD73569CC085DF8 /* GNRequestServerType.swift */,
+				65998ADEC072DD964D24AAA6029EB4F3 /* GNRequestServerTypeExtension.swift */,
+				4A422DB993E8E83ABFFB75809EB6BF97 /* GNURLSessionService.swift */,
+				4B69CF953F0C9FD0F9B0E1B38D9461CC /* Resources */,
+				312924D27035E9918323371EC15D7D51 /* Support Files */,
+			);
+			name = GNNetworkServices;
+			path = GNNetworkServices;
+			sourceTree = "<group>";
+		};
+		7BE1C7C9F5D044CE8848C06714BC66AB /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				2061A4353FEC2032D490507FB2113593 /* Reachability.swift */,
+				99BDD5575F361AB70C2EC039A0C60518 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		8DC6319BC54038B2B117A08895007B8B /* GNSwissRazor */ = {
+			isa = PBXGroup;
+			children = (
+				C600195494F7D2447B249AA17C8C8283 /* GNExtension.swift */,
+				1FD1108829B3A3FCE5AC3DB70B30ECAC /* GNSwissRazor.h */,
+				116E7BBD8713C7F5C4AA131675CF3A94 /* GNTools.swift */,
+				CFF77D5666D002E2F05E32301E31A285 /* Support Files */,
+			);
+			name = GNSwissRazor;
+			path = GNSwissRazor;
+			sourceTree = "<group>";
+		};
+		99BDD5575F361AB70C2EC039A0C60518 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B01B63E5188635647B3EF4128E68B97 /* ReachabilitySwift.modulemap */,
+				8B351ED21C03BFDD412F728C6E005193 /* ReachabilitySwift.xcconfig */,
+				7C2746D23AC8DE2B20CF3313C497CE3B /* ReachabilitySwift-dummy.m */,
+				95B0CFF3549CD9A7A96E738B623F85CB /* ReachabilitySwift-Info.plist */,
+				550C996CA0788EAA8A646C4385E0DF61 /* ReachabilitySwift-prefix.pch */,
+				170EDCA90B4AC00B79741B6C3A4B0241 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		A193EB1F46E87B7AB1A7C2E0B590D503 /* KEntertainmentService */ = {
+			isa = PBXGroup;
+			children = (
+				F661079C6EC03C10E8055E855D61575F /* KBaseService.swift */,
+				D877858DDEA212908208770AD28549BE /* KEntertainmentService.h */,
+				71D377D16C9E7945217E8711A48770B6 /* KMovieEntity.swift */,
+				A27D5825E48767D7ADD2F993AF74F2F5 /* KMovieEntityModelConverter.swift */,
+				AC1F3C34608537DD887F006107760472 /* KMovieResponseEntity.swift */,
+				248D8C08F5E1872AB5795BB99351CB80 /* KMovieService.swift */,
+				B214E109F0D7E04C1B371552FFBD0013 /* KServiceConfig.swift */,
+				9EFA3B812B995BAA3A3970E11F9BC08A /* KTvEntity.swift */,
+				498C642F007D9C37C34B901F9DDD3210 /* KTvEntityModelConverter.swift */,
+				F04600FC726BE54B276EDFF67FB8C6DF /* KTvResponseEntity.swift */,
+				8DA72E6FE70990C591378BD1E4DE5A93 /* KTvService.swift */,
+				07CF58C7473B4042663949EAE0C85CAB /* Support Files */,
+			);
+			name = KEntertainmentService;
+			path = KEntertainmentService;
+			sourceTree = "<group>";
+		};
+		AA0E489E64A45828FDD05388C426CF0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CCA275B392D5A4D5352F5C23C64BF53 /* KEntertainmentDomain.modulemap */,
+				FE7972A64771DA5E69A14D1DCCA79485 /* KEntertainmentDomain.xcconfig */,
+				07F2A5871AADF0FF489978D1289A828B /* KEntertainmentDomain-dummy.m */,
+				1B3ABE8EC8445D5E53D2B6ABF8312DAB /* KEntertainmentDomain-Info.plist */,
+				B5EFC20C023808319DE09A9AC77A79E8 /* KEntertainmentDomain-prefix.pch */,
+				185B7E00E738E90E37C0BFD4EFD2D2A3 /* KEntertainmentDomain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KEntertainmentDomain";
+			sourceTree = "<group>";
+		};
+		AB5BA6418D2F8358459B63AF352F4F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1D6FA808551CF1DC33D29080A165299 /* GNNetworkServices.framework */,
+				5747181CF5DDC3AE707E7064290581B4 /* GNSwissRazor.framework */,
+				83CD8BA3B17DE525F086F21514893B04 /* KEntertainmentDomain.framework */,
+				704808736A2E28DB993D83758FE45558 /* Reachability.framework */,
+				B6B049629527B54DE9CEFC7597759E48 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B049629527B54DE9CEFC7597759E48 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C479210C7B0B0F813DE297E76839D47F /* Foundation.framework */,
+				5F2D001AFBA533BE8F47DF43790CB9C5 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B9C8F7CB8C246AAA81BF24FD13945BC3 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests */ = {
+			isa = PBXGroup;
+			children = (
+				9253BFFECC4C5F6938D4460190212A07 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.modulemap */,
+				31C020A0E2F7291BFEEE471141D40E05 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.markdown */,
+				B86EE597AF76D67173046A0D4DCEFB3F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-acknowledgements.plist */,
+				BF8677E5248198A5F8A2CDA1BAD417B5 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m */,
+				08A29376B05F3413D92AE7847A837829 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-frameworks.sh */,
+				EB9F637E9481433F793A4A54107A1227 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-Info.plist */,
+				BE0336575DD678F8728C2938DDB964F9 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h */,
+				DC034CE6B98B5783F76B7AF8AC7BD8CE /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */,
+				7CC0DE84AE765FEC0753AC6F8416D580 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */,
+			);
+			name = "Pods-KEntertainmentProcess-KEntertainmentProcessTests";
+			path = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests";
+			sourceTree = "<group>";
+		};
+		BF63B477C623CCF45A480F64D7F5A98E /* Pods-KEntertainmentProcess */ = {
+			isa = PBXGroup;
+			children = (
+				6817A245D4025E3E8D7113704C8E3723 /* Pods-KEntertainmentProcess.modulemap */,
+				7EB7100EFC59EC4690D42853A58EEAE3 /* Pods-KEntertainmentProcess-acknowledgements.markdown */,
+				7BCC0A398669470A50D82D21CBED2982 /* Pods-KEntertainmentProcess-acknowledgements.plist */,
+				A8CE719ED9B25E034B7DE3E7AC6AE30F /* Pods-KEntertainmentProcess-dummy.m */,
+				85DA919CFEF53B02E4E8DC1683324743 /* Pods-KEntertainmentProcess-Info.plist */,
+				2D4D76C4B926979481BE27598BE6A02A /* Pods-KEntertainmentProcess-umbrella.h */,
+				157B561ABBBC63182290F332DCEBBC25 /* Pods-KEntertainmentProcess.debug.xcconfig */,
+				E3B52BBCBF5ACD9CC0B435FBF8C592F4 /* Pods-KEntertainmentProcess.release.xcconfig */,
+			);
+			name = "Pods-KEntertainmentProcess";
+			path = "Target Support Files/Pods-KEntertainmentProcess";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AB5BA6418D2F8358459B63AF352F4F45 /* Frameworks */,
+				F3B0B5BB89D423D55C7290660E24EFCD /* Pods */,
+				F4195D5D448FF17D5ED0FDAA17C24F64 /* Products */,
+				2AC8588DF1FE89BCC98F790487001DA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF77D5666D002E2F05E32301E31A285 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68EFD5D5CE876D145626DA5CD483C340 /* GNSwissRazor.modulemap */,
+				54C30514E0B85B57F7509720787DE4EF /* GNSwissRazor.xcconfig */,
+				515C782F3495B2B4CEA6A3AA9842938D /* GNSwissRazor-dummy.m */,
+				1D62212EBC1CD727244AA8EB14D12C6B /* GNSwissRazor-Info.plist */,
+				7758E95018860F2AFF0F96BAD3499D85 /* GNSwissRazor-prefix.pch */,
+				4E23FE413A939DDBD67667C2058BF4DE /* GNSwissRazor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GNSwissRazor";
+			sourceTree = "<group>";
+		};
+		F3B0B5BB89D423D55C7290660E24EFCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA4F6D5C747A3B5AD032827C7A21D91 /* GNNetworkServices */,
+				8DC6319BC54038B2B117A08895007B8B /* GNSwissRazor */,
+				3E84864B5A04CE419922AE530FA059DB /* KEntertainmentDomain */,
+				A193EB1F46E87B7AB1A7C2E0B590D503 /* KEntertainmentService */,
+				7BE1C7C9F5D044CE8848C06714BC66AB /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4195D5D448FF17D5ED0FDAA17C24F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B0A7E4E48209CFAE684EC0860E6AD /* GNNetworkServices.framework */,
+				1238C4FEA3F354BF8CA601FAE964B978 /* GNSwissRazor.framework */,
+				3B69193731B9747A9F3324240513D32C /* KEntertainmentDomain.framework */,
+				882F179111D3787152CFB956DE21ACD3 /* KEntertainmentService.framework */,
+				3C1AE7FA9897AD59F6F2E912C8614D65 /* Pods_KEntertainmentProcess.framework */,
+				B7FB30C67C653CCBEEFB08F36FA8FD84 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9824EE4C434994CDCB234B5DE61730BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0051CBB29DC326F56A438489E49B8146 /* GNSwissRazor-umbrella.h in Headers */,
+				3092F0956D39C207E02081BDD0B2FF3E /* GNSwissRazor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98547D2F1A574345EAEC0F860FC6E1B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817113E088DCDB300339D5720E7EBDC1 /* KEntertainmentDomain-umbrella.h in Headers */,
+				8558F73D5999184E87C1E38FCC8B31D7 /* KEntertainmentDomain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6B9F4124522D02D6F4A356DCB9EA77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0B85BDEB2814F7C8AAC843C9776139 /* GNNetworkServices-umbrella.h in Headers */,
+				743B52FE95EFF725BA354556924B9EB6 /* GNNetworkServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDFCDABF341114112E4C92FF8F7A02B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCE6F3FE609A2C17F0B4895F3CFACEA /* Pods-KEntertainmentProcess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADB03FCF41F2FB748982C2A0D4F1C34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD8E374CF4FCCE4C0E8206F5D947CA /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82718D91F790157593E0D5840A35ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB1DAA485859A41C0B42952881BF52D /* KEntertainmentService-umbrella.h in Headers */,
+				64A008363F6A8FFF3BAD1C3E939AF57A /* KEntertainmentService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDC6E16AD1036B3608967C3A180F6F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178F0879E67AB48F91F2E1300D50BF74 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDEF2C850D968154284B0BDB98A2813 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				CADB03FCF41F2FB748982C2A0D4F1C34 /* Headers */,
+				A07312A8A641BC99F79648346727C598 /* Sources */,
+				003E810840D0505D3C9E880821ACCA5F /* Frameworks */,
+				3C947DBAA61354382023FB715F29D0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46F58070DDAFA62D7F6E3A7FE7B5714D /* KEntertainmentService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD37D12AE480CA4FB65346567A8F9EC /* Build configuration list for PBXNativeTarget "KEntertainmentService" */;
+			buildPhases = (
+				D82718D91F790157593E0D5840A35ADD /* Headers */,
+				DBE742AB7070F653B8753E4F8C926E5D /* Sources */,
+				22BF9A74CDD94F86E2C66179A034A611 /* Frameworks */,
+				EA9B93D73775E2DB00DBB36A0D80A8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD8FC2D8112A95DE443706171EF7217 /* PBXTargetDependency */,
+				43314EACECB9BF9B8A1A037899697F45 /* PBXTargetDependency */,
+				2E501BD3026238716B9973BA1C9A0663 /* PBXTargetDependency */,
+			);
+			name = KEntertainmentService;
+			productName = KEntertainmentService;
+			productReference = 882F179111D3787152CFB956DE21ACD3 /* KEntertainmentService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57B77CBAA7BC017243E9FFFEA4400C7F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCDAE1E8F5478CFBD44C51F391C3D54 /* Build configuration list for PBXNativeTarget "Pods-KEntertainmentProcess-KEntertainmentProcessTests" */;
+			buildPhases = (
+				EFDC6E16AD1036B3608967C3A180F6F5 /* Headers */,
+				EC5BE8780BB93DA5E11F2612ACC5C2B3 /* Sources */,
+				A41FAE0749BA24FC9CA8C2474C64D757 /* Frameworks */,
+				C9810824044AEE62FC1E947CF751BEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6BB6D4852FDC97445A81BC8F0AAC11 /* PBXTargetDependency */,
+				F68C68C349BB1A89475F9C7902F208C1 /* PBXTargetDependency */,
+				DF86F85557B52483C24C402397CEB02E /* PBXTargetDependency */,
+				6041CFEB294F30647F87F2D662A24983 /* PBXTargetDependency */,
+				094E3E195D0651DD0D1218B181FD9D68 /* PBXTargetDependency */,
+			);
+			name = "Pods-KEntertainmentProcess-KEntertainmentProcessTests";
+			productName = "Pods-KEntertainmentProcess-KEntertainmentProcessTests";
+			productReference = B7FB30C67C653CCBEEFB08F36FA8FD84 /* Pods_KEntertainmentProcess_KEntertainmentProcessTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		613A54FC466E327B688BBB896334F4E9 /* GNNetworkServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FADBA39D3F63D85D0D609E104EE5D73 /* Build configuration list for PBXNativeTarget "GNNetworkServices" */;
+			buildPhases = (
+				9A6B9F4124522D02D6F4A356DCB9EA77 /* Headers */,
+				76879B2D586E806E91B4C41B1CD5AD24 /* Sources */,
+				CA1BA4E617E5D24BE5E1569CD9D07B95 /* Frameworks */,
+				717D6962A504CE93860D23B0F6C5BF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				597E9401A59ED98E76196F469E323D36 /* PBXTargetDependency */,
+				B8B1851F6A36B08F5D9007562ABF99F5 /* PBXTargetDependency */,
+			);
+			name = GNNetworkServices;
+			productName = GNNetworkServices;
+			productReference = BA7B0A7E4E48209CFAE684EC0860E6AD /* GNNetworkServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D127081AC8043813742B5FBC959F49B9 /* Build configuration list for PBXNativeTarget "GNSwissRazor" */;
+			buildPhases = (
+				9824EE4C434994CDCB234B5DE61730BB /* Headers */,
+				6DCBEFB7FC79E49B40E2B90627F746BE /* Sources */,
+				8AFA10BC7CF32C12119DFD15E02E6923 /* Frameworks */,
+				6A38F71F343599A79186C1297B03960F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GNSwissRazor;
+			productName = GNSwissRazor;
+			productReference = 1238C4FEA3F354BF8CA601FAE964B978 /* GNSwissRazor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C7777341FD471F329B5680D3647D9DA /* KEntertainmentDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DDF2A2E25EA9A213FC85E83E999124 /* Build configuration list for PBXNativeTarget "KEntertainmentDomain" */;
+			buildPhases = (
+				98547D2F1A574345EAEC0F860FC6E1B5 /* Headers */,
+				C606B587B84C98D5CC35BC02090F62C7 /* Sources */,
+				08423CD5C4A181CC9040FA1A68193DE0 /* Frameworks */,
+				D6113D2D515CBEA0EF97B2BFF554737D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KEntertainmentDomain;
+			productName = KEntertainmentDomain;
+			productReference = 3B69193731B9747A9F3324240513D32C /* KEntertainmentDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADCF2FFE32EC377E14B2C0D0891E01DC /* Pods-KEntertainmentProcess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280C797EADDD809808CE15596F1BFEE5 /* Build configuration list for PBXNativeTarget "Pods-KEntertainmentProcess" */;
+			buildPhases = (
+				ACDFCDABF341114112E4C92FF8F7A02B /* Headers */,
+				EBB9B691346397AA7744230AB42F3B47 /* Sources */,
+				2CC834394000B9F047FA3EF2DF3EF119 /* Frameworks */,
+				FF92D5284D9D51F2E741F9CADF513FE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928227E2B89017E3B3ECBAF144F4C4FC /* PBXTargetDependency */,
+				AB957F1F9C2B42F28A8AC227C139DD17 /* PBXTargetDependency */,
+				D12665D5C4AB18BB02D535666781C5B2 /* PBXTargetDependency */,
+				794784C3679490989441E167F018376D /* PBXTargetDependency */,
+				4625261FEE5E6EA2602B61631C9114B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-KEntertainmentProcess";
+			productName = "Pods-KEntertainmentProcess";
+			productReference = 3C1AE7FA9897AD59F6F2E912C8614D65 /* Pods_KEntertainmentProcess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4195D5D448FF17D5ED0FDAA17C24F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613A54FC466E327B688BBB896334F4E9 /* GNNetworkServices */,
+				81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */,
+				9C7777341FD471F329B5680D3647D9DA /* KEntertainmentDomain */,
+				46F58070DDAFA62D7F6E3A7FE7B5714D /* KEntertainmentService */,
+				ADCF2FFE32EC377E14B2C0D0891E01DC /* Pods-KEntertainmentProcess */,
+				57B77CBAA7BC017243E9FFFEA4400C7F /* Pods-KEntertainmentProcess-KEntertainmentProcessTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C947DBAA61354382023FB715F29D0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A38F71F343599A79186C1297B03960F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717D6962A504CE93860D23B0F6C5BF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE646D9DD6DFD3DAAD0831D8527AE60 /* GNConfig-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9810824044AEE62FC1E947CF751BEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6113D2D515CBEA0EF97B2BFF554737D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B93D73775E2DB00DBB36A0D80A8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF92D5284D9D51F2E741F9CADF513FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DCBEFB7FC79E49B40E2B90627F746BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D817A5BBFF7A602EDA3BE27F18A1B791 /* GNExtension.swift in Sources */,
+				2A5788467DFD101F2B14BDC3614A5424 /* GNSwissRazor-dummy.m in Sources */,
+				6D89D94F741BA65A2D51B4F49B903B7D /* GNTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76879B2D586E806E91B4C41B1CD5AD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780FC9D5AA4E1556DD185E32044E7E20 /* BMPCookie.swift in Sources */,
+				955AED97FF0920003A35883C918F3097 /* GNBaseService.swift in Sources */,
+				3D4D359A749E845685BCB237A41A8290 /* GNBaseServiceDelegate.swift in Sources */,
+				3CCE255757E54212C0F6CFAEB9A442DC /* GNBaseServiceExtension.swift in Sources */,
+				48463ED6412BA24B9AEB46C6C976BA41 /* GNConfigService.swift in Sources */,
+				063BF19D759B2EF540F30B8CF941C5BB /* GNConnectionServiceDelegate.swift in Sources */,
+				2475873BC11D6F66D0DF2A51F2CBE91A /* GNConnectionType.swift in Sources */,
+				FEDF1546C7851E93AB0582C2AFCF3D46 /* GNConnectionTypeExtension.swift in Sources */,
+				5757509D13330BD04C5726A0762987C3 /* GNDependencySeriveConfigDependencySeriveConfig.swift in Sources */,
+				6BF05682A2E7FD72DD6A2C805F924C89 /* GNMagicCoreServiceDelegate.swift in Sources */,
+				17E13580DF2B9F83FAC229B194B920CB /* GNNetworkServices-dummy.m in Sources */,
+				63CE8AA0950E48E9152E1C8A10229F58 /* GNRequestServerType.swift in Sources */,
+				774C34CF3506497A9E5447697F384F21 /* GNRequestServerTypeExtension.swift in Sources */,
+				72F8A1832C0BE3FD701AE7DDD03597EB /* GNURLSessionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07312A8A641BC99F79648346727C598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECE19D7BF7F844A9F68F253B8098CEC /* Reachability.swift in Sources */,
+				85D9B59B7E3838B99407716B98BAAFAF /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606B587B84C98D5CC35BC02090F62C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06BB0FCF9A65EEDA925A6C42ED717C3 /* KEntertainmentDomain-dummy.m in Sources */,
+				CBE79C4F7985CDB11EC07D1A6902F15D /* KHttpRequestType.swift in Sources */,
+				FB1C10CB8FA66EFB5A37A04EAF1A14D8 /* KMovieModel.swift in Sources */,
+				9C33CAD55D7A124CA04C3471FC14D9DC /* KTvModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE742AB7070F653B8753E4F8C926E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C6CEA52D36E43A6364F1BD0E607F1 /* KBaseService.swift in Sources */,
+				771BE0295FB2981F49E84602CA9B1667 /* KEntertainmentService-dummy.m in Sources */,
+				A7EFA584E0FC08E7005790DFF58397E4 /* KMovieEntity.swift in Sources */,
+				021A2CE2020C9A819E15E9D6BE607815 /* KMovieEntityModelConverter.swift in Sources */,
+				857F804F52F6BC71308BB893184D3B96 /* KMovieResponseEntity.swift in Sources */,
+				FB914F0527D2879861470D7792C76CAD /* KMovieService.swift in Sources */,
+				85DD2D9B21AEDD261E8E3963EEEB6186 /* KServiceConfig.swift in Sources */,
+				A0FF6509166F5D9771A8226FF2829CB3 /* KTvEntity.swift in Sources */,
+				BE80779B3B8A3CA5B4E37E2075698223 /* KTvEntityModelConverter.swift in Sources */,
+				0C6B219F59EF0ABF9EFD4F4444A8C459 /* KTvResponseEntity.swift in Sources */,
+				CFEE95B39FFE6BFDBBFE3B1CED63578D /* KTvService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB9B691346397AA7744230AB42F3B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C674B9DDBDABBB2883E7ED2EFD1CF0 /* Pods-KEntertainmentProcess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5BE8780BB93DA5E11F2612ACC5C2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD96ABDA3AFBE5132CF72894AD246FA /* Pods-KEntertainmentProcess-KEntertainmentProcessTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094E3E195D0651DD0D1218B181FD9D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 11BD8856520EC6FEFCD5199B77744E67 /* PBXContainerItemProxy */;
+		};
+		0DD8FC2D8112A95DE443706171EF7217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNNetworkServices;
+			target = 613A54FC466E327B688BBB896334F4E9 /* GNNetworkServices */;
+			targetProxy = A5BCEE6993AB16BCE08AE769DE2E6252 /* PBXContainerItemProxy */;
+		};
+		2E501BD3026238716B9973BA1C9A0663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KEntertainmentDomain;
+			target = 9C7777341FD471F329B5680D3647D9DA /* KEntertainmentDomain */;
+			targetProxy = 049223ED3498FFBE0A351F3C19D36629 /* PBXContainerItemProxy */;
+		};
+		43314EACECB9BF9B8A1A037899697F45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNSwissRazor;
+			target = 81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */;
+			targetProxy = E74FF4CEC6B35BA0CB03EAC291AB8B3F /* PBXContainerItemProxy */;
+		};
+		4625261FEE5E6EA2602B61631C9114B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 124AA6D88968A3F415E40828183507C2 /* PBXContainerItemProxy */;
+		};
+		597E9401A59ED98E76196F469E323D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNSwissRazor;
+			target = 81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */;
+			targetProxy = DC59A4A199E77637360C3F347FC34758 /* PBXContainerItemProxy */;
+		};
+		6041CFEB294F30647F87F2D662A24983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KEntertainmentService;
+			target = 46F58070DDAFA62D7F6E3A7FE7B5714D /* KEntertainmentService */;
+			targetProxy = C125B17433DC254912C5BEE2962C57C8 /* PBXContainerItemProxy */;
+		};
+		794784C3679490989441E167F018376D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KEntertainmentService;
+			target = 46F58070DDAFA62D7F6E3A7FE7B5714D /* KEntertainmentService */;
+			targetProxy = D8098A64DB6C7DEA79729628C1B6F444 /* PBXContainerItemProxy */;
+		};
+		928227E2B89017E3B3ECBAF144F4C4FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNNetworkServices;
+			target = 613A54FC466E327B688BBB896334F4E9 /* GNNetworkServices */;
+			targetProxy = 9E47D2322FA4DBA3FCE39CA0917B055A /* PBXContainerItemProxy */;
+		};
+		AB957F1F9C2B42F28A8AC227C139DD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNSwissRazor;
+			target = 81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */;
+			targetProxy = 32A9398A00B332AF6734325BD8418761 /* PBXContainerItemProxy */;
+		};
+		B8B1851F6A36B08F5D9007562ABF99F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 0DB79DFA29D44A3C152AFE69198D8803 /* PBXContainerItemProxy */;
+		};
+		D12665D5C4AB18BB02D535666781C5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KEntertainmentDomain;
+			target = 9C7777341FD471F329B5680D3647D9DA /* KEntertainmentDomain */;
+			targetProxy = F76A09B588A829315AFB83FF849CE7E5 /* PBXContainerItemProxy */;
+		};
+		DB6BB6D4852FDC97445A81BC8F0AAC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNNetworkServices;
+			target = 613A54FC466E327B688BBB896334F4E9 /* GNNetworkServices */;
+			targetProxy = AAAF3CF8741019E1CF7398A2F2FDDA63 /* PBXContainerItemProxy */;
+		};
+		DF86F85557B52483C24C402397CEB02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KEntertainmentDomain;
+			target = 9C7777341FD471F329B5680D3647D9DA /* KEntertainmentDomain */;
+			targetProxy = CCB284A28ED83E7C3E4AB4DE96EED55E /* PBXContainerItemProxy */;
+		};
+		F68C68C349BB1A89475F9C7902F208C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNSwissRazor;
+			target = 81343638133EBDFFE1274EC252D09C41 /* GNSwissRazor */;
+			targetProxy = 312C5BA81E7F745E6D035B934BFB27CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18402887A994AE70F5A55270097632E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04141BFA3A03A78DBB3D7F6DB86BB62F /* GNNetworkServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNNetworkServices/GNNetworkServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNNetworkServices/GNNetworkServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GNNetworkServices/GNNetworkServices.modulemap";
+				PRODUCT_MODULE_NAME = GNNetworkServices;
+				PRODUCT_NAME = GNNetworkServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E2FBA5A892A680E16EC2B455AED7173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B52BBCBF5ACD9CC0B435FBF8C592F4 /* Pods-KEntertainmentProcess.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FF62546463434C3952049A526DB94A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C30514E0B85B57F7509720787DE4EF /* GNSwissRazor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNSwissRazor/GNSwissRazor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNSwissRazor/GNSwissRazor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GNSwissRazor/GNSwissRazor.modulemap";
+				PRODUCT_MODULE_NAME = GNSwissRazor;
+				PRODUCT_NAME = GNSwissRazor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		344F6A2B3B772B9C86916328A51EECC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B351ED21C03BFDD412F728C6E005193 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41EC27646CC4EA06B4A0B2A3FFBC178D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC0DE84AE765FEC0753AC6F8416D580 /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E8ABE496271D27CB7542B6F6211C7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04141BFA3A03A78DBB3D7F6DB86BB62F /* GNNetworkServices.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNNetworkServices/GNNetworkServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNNetworkServices/GNNetworkServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GNNetworkServices/GNNetworkServices.modulemap";
+				PRODUCT_MODULE_NAME = GNNetworkServices;
+				PRODUCT_NAME = GNNetworkServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		892B1B0A5AADF91ADBBE1298186975CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157B561ABBBC63182290F332DCEBBC25 /* Pods-KEntertainmentProcess.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KEntertainmentProcess/Pods-KEntertainmentProcess.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DDF9EE6B6D28D552991BE86BCA50526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B351ED21C03BFDD412F728C6E005193 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0C4A38B325D9093BDB215C33DB5C88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7972A64771DA5E69A14D1DCCA79485 /* KEntertainmentDomain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain.modulemap";
+				PRODUCT_MODULE_NAME = KEntertainmentDomain;
+				PRODUCT_NAME = KEntertainmentDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B19D47E1F8518DD72E4C83B4CBB8FD84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C30514E0B85B57F7509720787DE4EF /* GNSwissRazor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GNSwissRazor/GNSwissRazor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNSwissRazor/GNSwissRazor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GNSwissRazor/GNSwissRazor.modulemap";
+				PRODUCT_MODULE_NAME = GNSwissRazor;
+				PRODUCT_NAME = GNSwissRazor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D93F55D156CF5DCEF720FD24BA538299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC034CE6B98B5783F76B7AF8AC7BD8CE /* Pods-KEntertainmentProcess-KEntertainmentProcessTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KEntertainmentProcess-KEntertainmentProcessTests/Pods-KEntertainmentProcess-KEntertainmentProcessTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFB249C1329FFD237FB1E6B941D14676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7972A64771DA5E69A14D1DCCA79485 /* KEntertainmentDomain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KEntertainmentDomain/KEntertainmentDomain.modulemap";
+				PRODUCT_MODULE_NAME = KEntertainmentDomain;
+				PRODUCT_NAME = KEntertainmentDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2C257FA8F7BF49FAE9E62A0A8B66B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2211C77ED24787537E1019DBD76480E /* KEntertainmentService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KEntertainmentService/KEntertainmentService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KEntertainmentService/KEntertainmentService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KEntertainmentService/KEntertainmentService.modulemap";
+				PRODUCT_MODULE_NAME = KEntertainmentService;
+				PRODUCT_NAME = KEntertainmentService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDA6AA8552AFC6D5CD25A766E40DA615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2211C77ED24787537E1019DBD76480E /* KEntertainmentService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KEntertainmentService/KEntertainmentService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KEntertainmentService/KEntertainmentService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KEntertainmentService/KEntertainmentService.modulemap";
+				PRODUCT_MODULE_NAME = KEntertainmentService;
+				PRODUCT_NAME = KEntertainmentService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DDF2A2E25EA9A213FC85E83E999124 /* Build configuration list for PBXNativeTarget "KEntertainmentDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB249C1329FFD237FB1E6B941D14676 /* Debug */,
+				A0C4A38B325D9093BDB215C33DB5C88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280C797EADDD809808CE15596F1BFEE5 /* Build configuration list for PBXNativeTarget "Pods-KEntertainmentProcess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892B1B0A5AADF91ADBBE1298186975CE /* Debug */,
+				1E2FBA5A892A680E16EC2B455AED7173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD37D12AE480CA4FB65346567A8F9EC /* Build configuration list for PBXNativeTarget "KEntertainmentService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA6AA8552AFC6D5CD25A766E40DA615 /* Debug */,
+				E2C257FA8F7BF49FAE9E62A0A8B66B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FADBA39D3F63D85D0D609E104EE5D73 /* Build configuration list for PBXNativeTarget "GNNetworkServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18402887A994AE70F5A55270097632E7 /* Debug */,
+				6E8ABE496271D27CB7542B6F6211C7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDEF2C850D968154284B0BDB98A2813 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344F6A2B3B772B9C86916328A51EECC1 /* Debug */,
+				9DDF9EE6B6D28D552991BE86BCA50526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D127081AC8043813742B5FBC959F49B9 /* Build configuration list for PBXNativeTarget "GNSwissRazor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF62546463434C3952049A526DB94A4 /* Debug */,
+				B19D47E1F8518DD72E4C83B4CBB8FD84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCDAE1E8F5478CFBD44C51F391C3D54 /* Build configuration list for PBXNativeTarget "Pods-KEntertainmentProcess-KEntertainmentProcessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F55D156CF5DCEF720FD24BA538299 /* Debug */,
+				41EC27646CC4EA06B4A0B2A3FFBC178D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

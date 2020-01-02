@@ -11,6 +11,9 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "KEntertainmentProcessTest.testGetAllDataMoviesModel():KEntertainmentProcessTest.swift">
+      </ContextState>
+      <ContextState
          contextName = "KEntertainmentProcess.isValidNetworkConnection():KEntertainmentProcess.swift">
          <PersistentStrings>
             <PersistentString
@@ -20,9 +23,6 @@
                value = "GNDependencySeriveConfig.getStatusNetwork()">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "KEntertainmentProcessTest.testGetAllDataMoviesModel():KEntertainmentProcessTest.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in closure #1 in KEntertainmentProcess.saveRequestDataToCache():KEntertainmentProcess.swift">
@@ -43,6 +43,14 @@
          <PersistentStrings>
             <PersistentString
                value = "_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in KEntertainmentProcess.saveRequestDataToCache():KEntertainmentProcess.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self._list">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

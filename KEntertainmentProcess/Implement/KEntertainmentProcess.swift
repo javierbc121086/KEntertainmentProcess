@@ -97,19 +97,21 @@ public class KEntertainmentProcess: KBaseProcess {
         self.movieWrapper.deleteAll()
         self.tvWrapper.deleteAll()
         
-        _list.forEach { entertainmentModel in
-            entertainmentModel.list?.forEach({ model in
-                if let movieModel = model as? KMovieModel {
-                    var temp = movieModel
-                    temp.requestType = entertainmentModel.type.rawValue
-                    self.movieWrapper.save(model: temp)
-                }
-                else if let tvModel = model as? KTvModel {
-                    var temp = tvModel
-                    temp.requestType = entertainmentModel.type.rawValue
-                    self.tvWrapper.save(model: temp)
-                }
-            })
+        DispatchQueue.global(qos: .userInitiated).async {
+            self._list.forEach { entertainmentModel in
+                entertainmentModel.list?.forEach({ model in
+                    if let movieModel = model as? KMovieModel {
+                        var temp = movieModel
+                        temp.requestType = entertainmentModel.type.rawValue
+                        self.movieWrapper.save(model: temp)
+                    }
+                    else if let tvModel = model as? KTvModel {
+                        var temp = tvModel
+                        temp.requestType = entertainmentModel.type.rawValue
+                        self.tvWrapper.save(model: temp)
+                    }
+                })
+            }
         }
     }
     

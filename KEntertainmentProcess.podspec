@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KEntertainmentProcess"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Dependencia encargada de procesar la información de KEntretainment"
 
   spec.description  = <<-DESC
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
 end
 
 ## Note: Chage tag number version to #{spec.version} value ##
-# git tag -a 0.0.6 -m "Pod V0.0.6"
+# git tag -a 0.0.7 -m "Pod V0.0.7"
 # git push --tags
 
 ## Release New Pod ##

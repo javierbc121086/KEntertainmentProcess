@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KEntertainmentProcess"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Dependencia encargada de procesar la información de KEntretainment"
 
   spec.description  = <<-DESC
@@ -32,12 +32,13 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.dependency "KEntertainmentService"
+  spec.dependency "KEntertainmentData"
 
 end
 
 ## Note: Chage tag number version to #{spec.version} value ##
-# git tag -a 0.0.4 -m "Pod V0.0.4"
+# git tag -a 0.0.5 -m "Pod V0.0.5"
 # git push --tags
 
 ## Release New Pod ##
-# pod repo push KEntertainmentProcessSpec KEntertainmentProcess.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,git@gitlab.com:GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,git@gitlab.com:GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/KEntertainmentDomainSpec.git,git@github.com:javierbc121086/KEntertainmentServiceSpec.git' --private --verbose
+# pod repo push KEntertainmentProcessSpec KEntertainmentProcess.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,git@gitlab.com:GonetGrupo/iOS/Dependencies/Spects/GNNetworkServicesSpec.git,git@gitlab.com:GonetGrupo/iOS/Dependencies/Spects/GNSwissRazorSpec.git,git@github.com:javierbc121086/KEntertainmentDomainSpec.git,git@github.com:javierbc121086/KEntertainmentServiceSpec.git,git@github.com:javierbc121086/KEntertainmentDataSpec.git' --private --verbose

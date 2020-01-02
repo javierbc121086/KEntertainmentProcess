@@ -33,6 +33,9 @@
             <PersistentString
                value = "entertainmentModel">
             </PersistentString>
+            <PersistentString
+               value = "entertainmentModel.type.rawValue">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState

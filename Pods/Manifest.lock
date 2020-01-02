@@ -4,7 +4,7 @@ PODS:
     - ReachabilitySwift (~> 4.1.0)
   - GNSwissRazor (0.1.1.0)
   - KEntertainmentDomain (0.0.2)
-  - KEntertainmentService (0.0.1):
+  - KEntertainmentService (0.0.2):
     - GNNetworkServices
     - GNSwissRazor
     - KEntertainmentDomain
@@ -34,7 +34,7 @@ SPEC CHECKSUMS:
   GNNetworkServices: f0789fa2e967571a73f92c5d666d8985143af40f
   GNSwissRazor: 81fafbc345360d3f4c4e30bf042964950f7ed88d
   KEntertainmentDomain: 5528449f95ae5ae93b22e9b9df9a4f668c6b9779
-  KEntertainmentService: 07a88f8bbbb98cec076e91ff493e0ed3a005e5d7
+  KEntertainmentService: da7aa8cfc5c44adef8695ddd838c35e473ca91b6
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   RPEntertainmentData: fd22e15032016f57ce966162ba640b2e8c2f9d60
 

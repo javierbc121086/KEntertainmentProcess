@@ -99,13 +99,15 @@ public class KEntertainmentProcess: KBaseProcess {
         
         _list.forEach { entertainmentModel in
             entertainmentModel.list?.forEach({ model in
-                if var movieModel = model as? KMovieModel {
-                    movieModel.requestType = entertainmentModel.type.rawValue
-                    self.movieWrapper.save(model: movieModel)
+                if let movieModel = model as? KMovieModel {
+                    var temp = movieModel
+                    temp.requestType = entertainmentModel.type.rawValue
+                    self.movieWrapper.save(model: temp)
                 }
-                else if var tvModel = model as? KTvModel {
-                    tvModel.requestType = entertainmentModel.type.rawValue
-                    self.tvWrapper.save(model: tvModel)
+                else if let tvModel = model as? KTvModel {
+                    var temp = tvModel
+                    temp.requestType = entertainmentModel.type.rawValue
+                    self.tvWrapper.save(model: temp)
                 }
             })
         }

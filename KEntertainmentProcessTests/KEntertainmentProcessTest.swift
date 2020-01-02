@@ -10,6 +10,7 @@ import XCTest
 import GNNetworkServices
 import KEntertainmentDomain
 import KEntertainmentService
+import RPEntertainmentData
 
 @testable import KEntertainmentProcess
 
@@ -42,6 +43,55 @@ class KEntertainmentProcessTest: XCTestCase, KEntertainmentProcessDelegate {
         self.waitForExpectations(timeout: GNConfigService.TimeOutInterval, handler: nil)
     }
     
+    func testSaveRabgeData() {
+        let modelWrapper = RPEMovieWrapper()
+        for index in 1...1000 {
+            let movieModel = KMovieModel(
+                id: index,
+                popularity: Double(index),
+                voteCount: index,
+                video: false,
+                adult: false,
+                originalLanguage: "originalLanguage \(index)",
+                originalTitle: "originalTitle \(index)",
+                genreIds: [100, 200, 300],
+                title: "title \(index)",
+                voteAverage: Double(index),
+                overview: "overview \(index)",
+                releaseDate: "releaseDate \(index)",
+                backdropPath: "backdropPath \(index)",
+                posterPath: "posterPath \(index)",
+                requestType: -1
+            )
+            
+            modelWrapper.save(model: movieModel)
+        }
+    }
+    
+    func testGetAllDataStorage() {
+        let movieWrapper = RPEMovieWrapper()
+        let tvWrapper = RPETvWrapper()
+        
+        let movieList = movieWrapper.getAll()
+        let tvList = tvWrapper.getAll()
+        
+        movieList?.forEach({ (movieModel) in
+            print(movieModel)
+        })
+        
+        tvList?.forEach({ (tvModel) in
+            print(tvModel)
+        })
+    }
+    
+    func testDeleteStorageData() {
+        let movieWrapper = RPEMovieWrapper()
+        let tvWrapper = RPETvWrapper()
+        
+        movieWrapper.deleteAll()
+        tvWrapper.deleteAll()
+    }
+    
     func dataResponseProcess(list: [KEntertainmentModel]) {
         _expectation?.fulfill()
         
@@ -55,7 +105,7 @@ class KEntertainmentProcessTest: XCTestCase, KEntertainmentProcessDelegate {
             XCTAssert(!error.localizedDescription.isEmpty)
         }
         else {
-            XCTFail("\n::: Error: \(error.localizedDescription)")
+            XCTFail("\n::::::::::: Error: \(error.localizedDescription)")
         }
     }
 

@@ -23,7 +23,8 @@ struct KTvEntityModelConverter {
                 originalLanguage: entity.originalLanguage,
                 voteAverage: entity.voteAverage,
                 overview: entity.overview,
-                posterPath: entity.posterPath ?? .Empty
+                posterPath: entity.posterPath ?? .Empty,
+                requestType: -1
         )
 
         return model

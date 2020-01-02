@@ -1,0 +1,6 @@
+framework module RPEntertainmentData {
+  umbrella header "RPEntertainmentData-umbrella.h"
+
+  export *
+  module * { export * }
+}

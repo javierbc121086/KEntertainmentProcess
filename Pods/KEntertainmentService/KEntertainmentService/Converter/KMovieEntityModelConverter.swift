@@ -25,7 +25,8 @@ struct KMovieEntityModelConverter {
             overview: entity.overview,
             releaseDate: entity.releaseDate ?? .Empty,
             backdropPath: entity.backdropPath ?? .Empty,
-            posterPath: entity.posterPath ?? .Empty
+            posterPath: entity.posterPath ?? .Empty,
+            requestType: -1
         )
         
         return model

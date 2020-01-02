@@ -24,6 +24,7 @@ public struct KTvModel {
     
     public var cacheData: Any? = nil
     public var isVerified = false
+    public var requestType: Int
     
     public init (id: Int,
                  originalName: String,
@@ -37,7 +38,8 @@ public struct KTvModel {
                  originalLanguage: String,
                  voteAverage: Double,
                  overview: String,
-                 posterPath: String
+                 posterPath: String,
+                 requestType: Int
     ) {
         self.id                 = id
         self.originalName       = originalName
@@ -52,5 +54,6 @@ public struct KTvModel {
         self.voteAverage        = voteAverage
         self.overview           = overview
         self.posterPath         = posterPath
+        self.requestType        = requestType
     }
 }

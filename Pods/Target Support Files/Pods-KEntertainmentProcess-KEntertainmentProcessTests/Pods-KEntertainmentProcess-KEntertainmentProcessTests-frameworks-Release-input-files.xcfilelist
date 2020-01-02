@@ -3,4 +3,5 @@ ${BUILT_PRODUCTS_DIR}/GNNetworkServices/GNNetworkServices.framework
 ${BUILT_PRODUCTS_DIR}/GNSwissRazor/GNSwissRazor.framework
 ${BUILT_PRODUCTS_DIR}/KEntertainmentDomain/KEntertainmentDomain.framework
 ${BUILT_PRODUCTS_DIR}/KEntertainmentService/KEntertainmentService.framework
+${BUILT_PRODUCTS_DIR}/RPEntertainmentData/RPEntertainmentData.framework
 ${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework

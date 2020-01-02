@@ -9,10 +9,10 @@
 import KEntertainmentDomain
 
 public class KEntertainmentModel: NSObject {
-    var type: KHttpRequestType = .none
-    var list: [KEntertainmentType]? = nil
+    public var type: KHttpRequestType = .none
+    public var list: [KEntertainmentType]? = nil
     
-    init(type: KHttpRequestType) {
+    public init(type: KHttpRequestType) {
         self.type = type
         super.init()
     }

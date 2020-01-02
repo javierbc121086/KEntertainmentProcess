@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "KEntertainmentProcess.getStorageData():KEntertainmentProcess.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KEntertainmentProcess.isValidNetworkConnection():KEntertainmentProcess.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_list">
+            </PersistentString>
+            <PersistentString
+               value = "GNDependencySeriveConfig.getStatusNetwork()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KEntertainmentProcessTest.testGetAllDataMoviesModel():KEntertainmentProcessTest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in KEntertainmentProcess.saveRequestDataToCache():KEntertainmentProcess.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_list">
+            </PersistentString>
+            <PersistentString
+               value = "entertainmentModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KEntertainmentProcess.saveRequestDataToCache():KEntertainmentProcess.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

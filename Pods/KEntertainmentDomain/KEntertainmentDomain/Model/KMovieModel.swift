@@ -25,6 +25,7 @@ public struct KMovieModel {
     
     public var cacheData: Any? = nil
     public var isVerified = false
+    public var requestType: Int
     
     public init(id: Int,
                 popularity: Double,
@@ -39,7 +40,8 @@ public struct KMovieModel {
                 overview: String,
                 releaseDate: String,
                 backdropPath: String,
-                posterPath: String
+                posterPath: String,
+                requestType: Int
     ) {
         self.id                 = id
         self.popularity         = popularity
@@ -55,5 +57,6 @@ public struct KMovieModel {
         self.releaseDate        = releaseDate
         self.backdropPath       = backdropPath
         self.posterPath         = posterPath
+        self.requestType        = requestType
     }
 }
